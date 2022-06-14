@@ -7,12 +7,12 @@ Installing dependencies
 
 Running escript build command
 ```bash
-mix escript.build
+  mix escript.build
 ```
 
 Running cli
 ```bash
-./soup
+  ./soup
 ```
 
 You can also move binary to one of PATH folders to run it from anywhere
