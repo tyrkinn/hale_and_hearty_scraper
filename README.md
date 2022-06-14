@@ -1,21 +1,18 @@
-# Soup
+# Building cli
 
-**TODO: Add description**
-
-## Installation
-
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `soup` to your list of dependencies in `mix.exs`:
-
-```elixir
-def deps do
-  [
-    {:soup, "~> 0.1.0"}
-  ]
-end
+Installing dependencies
+```bash
+  mix deps.get
 ```
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/soup](https://hexdocs.pm/soup).
+Running escript build command
+```bash
+mix escript.build
+```
 
+Running cli
+```bash
+./soup
+```
+
+You can also move binary to one of PATH folders to run it from anywhere
